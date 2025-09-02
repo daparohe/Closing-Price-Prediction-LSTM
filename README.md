@@ -18,15 +18,14 @@ Para ejecutar el notebook se requiere:
 - Python 3.8+
 - Jupyter Notebook / Jupyter Lab
 - Librerías principales:
-
-pip install numpy pandas matplotlib scikit-learn tensorflow
+  pip install numpy pandas matplotlib scikit-learn tensorflow
 
 ## Ejecución
 1. Clonar el repositorio:
-git clone https://github.com/daparohe/Closing-Price-Prediction-LSTM.git
-cd tu_repositorio
+  git clone https://github.com/daparohe/Closing-Price-Prediction-LSTM.git
+  cd Closing-Price-Prediction-LSTM
 2. Abrir el notebook:
-jupyter notebook LSTM_TA.ipynb
+  jupyter notebook LSTM_TA.ipynb
 
 ## Resultados esperados
 El modelo LSTM permite estimar tendencias en precios de cierre y analizar su efectividad para estrategias de trading algorítmico, sirviendo como herramienta de apoyo en investigación y práctica financiera.
