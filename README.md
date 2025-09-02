@@ -29,7 +29,8 @@ Para ejecutar el notebook se requiere:
 ```cd Closing-Price-Prediction-LSTM```
 
 2. Abrir el notebook:
-  jupyter notebook LSTM_TA.ipynb
+
+```jupyter notebook LSTM_TA.ipynb```
 
 ## Resultados esperados
 El modelo LSTM permite estimar tendencias en precios de cierre y analizar su efectividad para estrategias de trading algorítmico, sirviendo como herramienta de apoyo en investigación y práctica financiera.
