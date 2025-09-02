@@ -25,6 +25,7 @@ Para ejecutar el notebook se requiere:
 1. Clonar el repositorio:
 
 ```git clone https://github.com/daparohe/Closing-Price-Prediction-LSTM.git```
+
 ```cd Closing-Price-Prediction-LSTM```
 
 2. Abrir el notebook:
