@@ -13,7 +13,7 @@ data_extraction.ipynb:
 - Notebook de extracción y limpieza de datos históricos desde Yahoo Finance (vía yfinance)
 
 todos_1d_10y.csv:
-- Dataset histórico diario del EUR/USD (2015–2025) utilizado para el entrenamiento. Instancias diarias.
+- Dataset histórico de varios símbolos (activos), incluyendo el EUR/USD (2015–2025) utilizado para el entrenamiento. Instancias diarias.
 
 ## 🧩 Estructura del Proyecto
 1. Extracción de Datos:
