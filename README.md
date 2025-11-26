@@ -8,8 +8,10 @@ El objetivo principal es implementar y validar un modelo de red neuronal LSTM pa
 ## 📁 Contenido del Repositorio
 LSTM_TA.ipynb :
 - Notebook principal con el desarrollo completo del modelo LSTM y modelos de comparación (ARIMA y XGBoost).
+
 data_extraction.ipynb :
 - Notebook de extracción y limpieza de datos históricos desde Yahoo Finance (vía yfinance)
+
 todos_1d_10y.csv
 - Dataset histórico diario del EUR/USD (2015–2025) utilizado para el entrenamiento. Instancias diarias.
 
