@@ -38,7 +38,7 @@ Para ejecutar los notebooks se recomienda un entorno con Python 3.11 y las sigui
 ```pip install numpy pandas matplotlib seaborn scikit-learn yfinance tensorflow statsmodels xgboost jupyter```
 
 ## 🚀 Ejecución
-1. Clonar el repositorio y ejecutar los notebooks en el orden sugerido:
+Clonar el repositorio y ejecutar los notebooks en el orden sugerido:
 
 ```git clone https://github.com/daparche/Closing-Price-Prediction-LSTM.git```
 
@@ -73,7 +73,9 @@ Este repositorio se publica con el fin de garantizar la transparencia técnica y
 
 ## Autores
 David Paúl Rosales Herrera
+
 📧Correo: daparohe@gmail.com
 
 Jhon Paúl	Villamarín Tapia
+
 📧Correo: jhvillamarint@ists.edu.ec
