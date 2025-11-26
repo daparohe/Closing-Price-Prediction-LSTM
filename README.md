@@ -1,18 +1,18 @@
 # 🧠 Desarrollo de Modelo LSTM para Predicción de Precios de Cierre en Trading Algorítmico
 
 Este repositorio contiene los recursos y código fuente utilizados en la investigación:
-"Desarrollo de Modelo LSTM para Predicción de Precios de Cierre en Trading Algorítmico".
+"Desarrollo de Modelo LSTM para Predicción de Precios de Cierre en Trading Algorítmico"
 
 El objetivo principal es implementar y validar un modelo de red neuronal LSTM para la predicción de precios de cierre del par EUR/USD, utilizando técnicas avanzadas de preprocesamiento, ingeniería de características y validación temporal, en el marco del trading algorítmico.
 
 ## 📁 Contenido del Repositorio
-LSTM_TA.ipynb :
+LSTM_TA.ipynb:
 - Notebook principal con el desarrollo completo del modelo LSTM y modelos de comparación (ARIMA y XGBoost).
 
-data_extraction.ipynb :
+data_extraction.ipynb:
 - Notebook de extracción y limpieza de datos históricos desde Yahoo Finance (vía yfinance)
 
-todos_1d_10y.csv
+todos_1d_10y.csv:
 - Dataset histórico diario del EUR/USD (2015–2025) utilizado para el entrenamiento. Instancias diarias.
 
 ## 🧩 Estructura del Proyecto
@@ -49,11 +49,16 @@ Para ejecutar los notebooks se recomienda un entorno con Python 3.11 y las sigui
 ```jupyter notebook LSTM_TA.ipynb```
 
 ## 📊 Resultados Esperados
-El modelo LSTM permite estimar tendencias en precios de cierre y analizar su efectividad para estrategias de trading algorítmico, sirviendo como herramienta de apoyo en investigación y práctica financiera.
+El modelo LSTM permite estimar tendencias en precios de cierre y analizar su efectividad para estrategias de trading algorítmico, sirviendo como herramienta de apoyo en investigación y práctica financiera. Las métricas esperadas son:
+
 ✅ MSE: 0.000105
+
 ✅ R²: 0.9949
+
 ✅ Accuracy: 98.52%
+
 ✅ MAE (walk-forward): 0.0086
+
 ✅ Superioridad frente a ARIMA y XGBoost en todas las métricas
 
 ## 📌 Notas Técnicas
@@ -69,5 +74,6 @@ Este repositorio se publica con el fin de garantizar la transparencia técnica y
 ## Autores
 David Paúl Rosales Herrera
 📧Correo: daparohe@gmail.com
+
 Jhon Paúl	Villamarín Tapia
 📧Correo: jhvillamarint@ists.edu.ec
